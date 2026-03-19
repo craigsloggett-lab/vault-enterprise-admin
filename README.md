@@ -8,6 +8,7 @@ An infrastructure as code repository to manage a Vault Enterprise cluster's conf
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.7 |
+| <a name="requirement_vault"></a> [vault](#requirement\_vault) | 5.8.0 |
 
 ## Providers
 
