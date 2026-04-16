@@ -12,7 +12,9 @@ An infrastructure as code repository to manage a Vault Enterprise cluster's conf
 
 ## Providers
 
-No providers.
+| Name | Version |
+| ---- | ------- |
+| <a name="provider_vault"></a> [vault](#provider\_vault) | 5.8.0 |
 
 ## Modules
 
@@ -24,9 +26,13 @@ No inputs.
 
 ## Resources
 
-No resources.
+| Name | Type |
+| ---- | ---- |
+| [vault_auth_backend.aws](https://registry.terraform.io/providers/hashicorp/vault/5.8.0/docs/data-sources/auth_backend) | data source |
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+| ---- | ----------- |
+| <a name="output_vault_auth_backend"></a> [vault\_auth\_backend](#output\_vault\_auth\_backend) | The AWS Auth method |
 <!-- END_TF_DOCS -->
