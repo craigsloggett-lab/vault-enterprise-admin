@@ -8,13 +8,13 @@ An infrastructure as code repository to manage a Vault Enterprise cluster's conf
 | Name | Version |
 | ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.7 |
-| <a name="requirement_vault"></a> [vault](#requirement\_vault) | 5.9.0 |
+| <a name="requirement_vault"></a> [vault](#requirement\_vault) | 5.11.0 |
 
 ## Providers
 
 | Name | Version |
 | ---- | ------- |
-| <a name="provider_vault"></a> [vault](#provider\_vault) | 5.9.0 |
+| <a name="provider_vault"></a> [vault](#provider\_vault) | 5.11.0 |
 
 ## Modules
 
@@ -28,7 +28,7 @@ No inputs.
 
 | Name | Type |
 | ---- | ---- |
-| [vault_auth_backend.aws](https://registry.terraform.io/providers/hashicorp/vault/5.9.0/docs/data-sources/auth_backend) | data source |
+| [vault_auth_backend.aws](https://registry.terraform.io/providers/hashicorp/vault/5.11.0/docs/data-sources/auth_backend) | data source |
 
 ## Outputs
 
